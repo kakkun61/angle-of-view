@@ -1,0 +1,15 @@
+{
+    "dependencies": {
+        "webpack" : "*",
+        "webpack-dev-server" : "*",
+        "elm-webpack-loader" : "*",
+        "file-loader" : "*",
+        "style-loader" : "*",
+        "css-loader" : "*",
+        "url-loader" : "*"
+    },
+    "scripts": {
+        "build": "webpack",
+        "dev-server": "webpack-dev-server --port 3000"
+    }
+}
