@@ -1,12 +1,12 @@
 {
-    "dependencies": {
-        "webpack" : "*",
-        "webpack-dev-server" : "*",
-        "elm-webpack-loader" : "*",
-        "file-loader" : "*",
-        "style-loader" : "*",
-        "css-loader" : "*",
-        "url-loader" : "*"
+    "devDependencies": {
+        "css-loader": "^0.28.7",
+        "elm-webpack-loader": "^4.4.0",
+        "file-loader": "^1.1.5",
+        "style-loader": "^0.19.0",
+        "url-loader": "^0.6.2",
+        "webpack": "^3.8.1",
+        "webpack-dev-server": "^2.9.4"
     },
     "scripts": {
         "build": "webpack",
